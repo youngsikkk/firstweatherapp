@@ -5,8 +5,10 @@ import { Fontisto } from "@expo/vector-icons";
 
 // Dimensions를 이용하면 화면 크기를 얻을 수 있다.
 
-const API_KEY = "147271a7f8e7975e2c0538846c1e51a3";
-// git에 올릴 때는 삭제할 것
+const API_KEY = "apikey";
+// 까먹고 그냥 올려서 수정
+// 이건 그냥 주는 거라 괜찮은데 다음부턴 유의
+// 서버에 보관하는 등의 방법 사용
 // API키를 어플에 올리는 건 위험
 
 const { width:SCREEN_WIDTH } = Dimensions.get('window');
